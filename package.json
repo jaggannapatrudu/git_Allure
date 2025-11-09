@@ -1,0 +1,27 @@
+{
+  "name": "rems_cart_automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.0.3",
+    "allure-playwright": "^3.4.2",
+    "rimraf": "^6.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "scripts": {
+  "test:allure": "powershell -Command \"$timestamp = (Get-Date -Format 'yyyyMMdd_HHmmss'); playwright test --output=allure-results-$timestamp\"",
+  "allure:generate": "powershell -Command \"$latest = (Get-ChildItem -Directory | Where-Object { $_.Name -like 'allure-results-*' } | Sort-Object LastWriteTime -Descending | Select-Object -First 1).Name; allure generate $latest -o allure-report-$latest --clean\"",
+  "allure:open": "powershell -Command \"$latest = (Get-ChildItem -Directory | Where-Object { $_.Name -like 'allure-report-*' } | Sort-Object LastWriteTime -Descending | Select-Object -First 1).Name; allure open $latest\""
+}
+
+
+}

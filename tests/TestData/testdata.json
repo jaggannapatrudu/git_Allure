@@ -1,0 +1,21 @@
+{
+    "url" : "https://bms-cartrems-sit.pegacloud.net/prweb",
+    "pegausername": "sunkaranisr@bms.com",
+    "pegapassword": "CART@1234",
+    "productName" : "ABECMA",
+    "lmpsUserName" : "lmpsisr10",
+    "lmpsPassword" : "CART@1234",
+    "mslPassword": "Rules",
+    "GlobalRRUrl" : "https://bms-cartrems-sit.pegacloud.net/prweb/PRWebLDAP1/app",
+    "counryName" : "Germany",
+    "rrRole": "RMinP Representative",
+    "outlookUrl" : "https://outlook.office365.com/mail/",
+    "bmsEmailID" : "jaggannapatrudu.karri@bms.com",
+    "bmsUserid": "karrij",
+    "bmsPassword" : "Nihanya1234r",
+    "environment" : "SIT",
+    "verificodetext": "CAR T RMinP VERIFICATION CODE"
+
+
+
+}
