@@ -1,0 +1,3 @@
+Requirement REQ123 covered
+Expected:Pega home page displayed
+Actual:Pega home page displayed

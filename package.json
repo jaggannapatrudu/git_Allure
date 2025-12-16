@@ -18,8 +18,6 @@
     "react-dom": "^19.1.1"
   },
   "scripts": {
-    "clean:allure": "rimraf  allure-results allure-report",
-    "test:allure": "npm run clean:allure && npx playwright test --reporter=html,allure-playwright && npx allure generate allure-results --clean -o allure-report && npx allure open allure-report"
-  }
+    }
 
 }
