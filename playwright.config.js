@@ -46,6 +46,7 @@ export default defineConfig({
     
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     //browserName: 'chromium',
+    //headless: false,
     baseURL: 'https://bms-cartrems-sit.pegacloud.net/prweb',
     screenshot:'off',
     video: 'off',
@@ -61,7 +62,7 @@ export default defineConfig({
      // Sets the default expect timeout to 10 seconds
   
     
-    headless: false,
+    headless: true,
   },
 
   /* Configure projects for major browsers */
