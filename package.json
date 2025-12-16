@@ -18,10 +18,8 @@
     "react-dom": "^19.1.1"
   },
   "scripts": {
-  "test:allure": "powershell -Command \"$timestamp = (Get-Date -Format 'yyyyMMdd_HHmmss'); playwright test --output=allure-results-$timestamp\"",
-  "allure:generate": "powershell -Command \"$latest = (Get-ChildItem -Directory | Where-Object { $_.Name -like 'allure-results-*' } | Sort-Object LastWriteTime -Descending | Select-Object -First 1).Name; allure generate $latest -o allure-report-$latest --clean\"",
-  "allure:open": "powershell -Command \"$latest = (Get-ChildItem -Directory | Where-Object { $_.Name -like 'allure-report-*' } | Sort-Object LastWriteTime -Descending | Select-Object -First 1).Name; allure open $latest\""
-}
-
+    "clean:allure": "rimraf  allure-results allure-report",
+    "test:allure": "npm run clean:allure && npx playwright test --reporter=html,allure-playwright && npx allure generate allure-results --clean -o allure-report && npx allure open allure-report"
+  }
 
 }

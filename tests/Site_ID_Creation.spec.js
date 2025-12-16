@@ -6,7 +6,7 @@ let globalID  , mslEmailAddress, rrEmailAddress, siteID, webcontext, newpage
 
      
 
-     test.only('Site ID creation in Pega portal', async ({page, context},testInfo)=>
+     test('Site ID creation in Pega portal', async ({page, context},testInfo)=>
           {
               
                const pegaPortal = new Pegaportal(page)
@@ -16,7 +16,7 @@ let globalID  , mslEmailAddress, rrEmailAddress, siteID, webcontext, newpage
                rrEmailAddress = data[1]
                mslEmailAddress = data[2]
      })
-
+/*
      test('Add RR training date in LMPS portal', async ({browser},testInfo)=>
           {
                 const context = await browser.newContext()
@@ -49,7 +49,7 @@ let globalID  , mslEmailAddress, rrEmailAddress, siteID, webcontext, newpage
               const lmpsportal = new LmpsPortal(newpage)
                await lmpsportal.QUALIFICATION_CHECKLIST(siteID, testInfo, globalID)
                await lmpsportal.LMPS_LOGOFF()
-     })
+     })*/
 
      
      

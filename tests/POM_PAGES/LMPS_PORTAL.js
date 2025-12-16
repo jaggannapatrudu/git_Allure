@@ -378,6 +378,7 @@ async LMPS_POST_TRAINING_PROCESS_DOCUMENTS(globalID, testinfo)
                         //await LmpsPortal.Takes_Screenshot('RR information displayed',this.page,testinfo)
                          await frameLocator1.locator("(//span[@name='calendarIcon'])[3]").click()
                          await frameLocator1.locator("#todayLink").click()
+                         await this.page.waitForTimeout(3000)
                          await frameLocator1.locator("//div/div[4]/div[3]/div/button").click()
                          
                          await frameLocator1.locator("//*[@id='$PpyAttachmentPage$ppxAttachName']").waitFor()

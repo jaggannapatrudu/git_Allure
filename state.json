@@ -2,7 +2,7 @@
   "cookies": [
     {
       "name": "Pega-Perf",
-      "value": "itkn=1",
+      "value": "itkn=0",
       "domain": "bms-cartrems-sit.pegacloud.net",
       "path": "/prweb/app/CARTISR/sAxOLqJRSD0wYRrfwA4_ig*",
       "expires": -1,
@@ -12,7 +12,7 @@
     },
     {
       "name": "Pega-RULES",
-      "value": "%09%7Bpd%7DAAAAGXh4RpNsy7a78pOQdjE3NkY3ur5dn0flf5WcqOjY1ZfAfrRv3pYFiZQMW%2BBtG4FLoQ%3D%3DA%7Bapp%7D",
+      "value": "%09%7Bpd%7DAAAAGjWA0U2K062vJ8hs7nHNTO2GXsDu19uf9HYsEkstY5Wxgxq%2Fy8kmZCS4%2B8R4welSPg%3D%3DA%7Bapp%7D",
       "domain": "bms-cartrems-sit.pegacloud.net",
       "path": "/prweb/PRPushServlet/app/default/",
       "expires": -1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "Pega-RULES",
-      "value": "%09%7Bpd%7DAAAAGXh4RpNsy7a78pOQdjE3NkY3ur5dn0flf5WcqOjY1ZfAfrRv3pYFiZQMW%2BBtG4FLoQ%3D%3DA%7Bapp%7D",
+      "value": "%09%7Bpd%7DAAAAGjWA0U2K062vJ8hs7nHNTO2GXsDu19uf9HYsEkstY5Wxgxq%2Fy8kmZCS4%2B8R4welSPg%3D%3DA%7Bapp%7D",
       "domain": "bms-cartrems-sit.pegacloud.net",
       "path": "/prweb/PRPushServlet/app/CARTISR/",
       "expires": -1,
@@ -32,7 +32,7 @@
     },
     {
       "name": "Pega-RULES",
-      "value": "%09%7Bpd%7DAAAAGXh4RpNsy7a78pOQdjE3NkY3ur5dn0flf5WcqOjY1ZfAfrRv3pYFiZQMW%2BBtG4FLoQ%3D%3DA%7Bapp%7D",
+      "value": "%09%7Bpd%7DAAAAGjWA0U2K062vJ8hs7nHNTO2GXsDu19uf9HYsEkstY5Wxgxq%2Fy8kmZCS4%2B8R4welSPg%3D%3DA%7Bapp%7D",
       "domain": "bms-cartrems-sit.pegacloud.net",
       "path": "/prweb/app/default/",
       "expires": -1,
@@ -42,7 +42,7 @@
     },
     {
       "name": "Pega-RULES",
-      "value": "%09%7Bpd%7DAAAAGXh4RpNsy7a78pOQdjE3NkY3ur5dn0flf5WcqOjY1ZfAfrRv3pYFiZQMW%2BBtG4FLoQ%3D%3DA%7Bapp%7D",
+      "value": "%09%7Bpd%7DAAAAGjWA0U2K062vJ8hs7nHNTO2GXsDu19uf9HYsEkstY5Wxgxq%2Fy8kmZCS4%2B8R4welSPg%3D%3DA%7Bapp%7D",
       "domain": "bms-cartrems-sit.pegacloud.net",
       "path": "/prweb/app/CARTISR/",
       "expires": -1,
@@ -52,7 +52,7 @@
     },
     {
       "name": "JSESSIONID",
-      "value": "9E38E07622D5054EA3B4C75136F074B5",
+      "value": "E34BC18E85035D3E443F461918A3EC55",
       "domain": "bms-cartrems-sit.pegacloud.net",
       "path": "/prweb",
       "expires": -1,
@@ -62,20 +62,20 @@
     },
     {
       "name": "AWSALB",
-      "value": "ae5uklXP4yi47qxKf6IE275Smv/IySkRt8imU7iXNTiTDBNw43Ax9QYvHuR9cY5w4y/9tgheeLAO17azd+8jlx3r7jyS8gGzu5/2zhQ7uALvrMm/bO7nKdbKD44F",
+      "value": "gmNdKBz0spUFIVhCdAvjme/SrAFMYRfxVUW/c+cVbJxSWvcEzX/+16oXmnR5X0o3OG8imAQPbd2GQKTOI3c0O3dNdcu4lLoBoEbHdSru7Sy4YbXJPhMpFmaB0McZ",
       "domain": "bms-cartrems-sit.pegacloud.net",
       "path": "/",
-      "expires": 1763109049.382719,
+      "expires": 1766044724.978932,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "AWSALBCORS",
-      "value": "ae5uklXP4yi47qxKf6IE275Smv/IySkRt8imU7iXNTiTDBNw43Ax9QYvHuR9cY5w4y/9tgheeLAO17azd+8jlx3r7jyS8gGzu5/2zhQ7uALvrMm/bO7nKdbKD44F",
+      "value": "gmNdKBz0spUFIVhCdAvjme/SrAFMYRfxVUW/c+cVbJxSWvcEzX/+16oXmnR5X0o3OG8imAQPbd2GQKTOI3c0O3dNdcu4lLoBoEbHdSru7Sy4YbXJPhMpFmaB0McZ",
       "domain": "bms-cartrems-sit.pegacloud.net",
       "path": "/",
-      "expires": 1763109049.384771,
+      "expires": 1766044724.979128,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -86,7 +86,7 @@
       "origin": "https://bms-cartrems-sit.pegacloud.net",
       "localStorage": [
         {
-          "name": "pyRequestorTokenHLN1T97RDZV7W8Y9DC8DLEG9N233AZTIQA",
+          "name": "pyRequestorTokenHVB3RI10O2BQD9KSBYRPD4G0R4V77N33PA",
           "value": "1"
         },
         {
@@ -95,7 +95,7 @@
         },
         {
           "name": "_pzbfpt",
-          "value": "1762504219942"
+          "value": "1765439923739"
         }
       ]
     }
