@@ -1,0 +1,307 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Go to main content" [ref=e7] [cursor=pointer]:
+      - /url: "#"
+    - link "Go to navigation" [ref=e12] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=e13]:
+    - banner "Top Panel" [ref=e14]:
+      - generic [ref=e15]:
+        - button "Toggle Left Navigation" [ref=e16] [cursor=pointer]: 
+        - generic [ref=e17]:
+          - navigation [ref=e18]:
+            - link "Dev Studio" [ref=e21] [cursor=pointer]:
+              - /url: "#"
+              - text: Dev Studio
+              - generic [ref=e22]: 
+            - button "Application menu" [ref=e25] [cursor=pointer]: 
+            - link "Configure" [ref=e33] [cursor=pointer]:
+              - /url: "#"
+              - text: Configure 
+            - link "Launch Portal" [ref=e36] [cursor=pointer]:
+              - /url: "#"
+              - text: Launch Portal 
+            - link "Create" [ref=e39] [cursor=pointer]:
+              - /url: "#"
+              - text: Create 
+            - search [ref=e44]:
+              - generic [ref=e45]:
+                - generic: Search text
+                - textbox "Search text" [ref=e48]:
+                  - /placeholder: Search
+              - button "Search" [ref=e51] [cursor=pointer]:
+                - generic [ref=e52]: 
+              - button "Checked out records" [ref=e55] [cursor=pointer]:
+                - generic [ref=e56]: 
+            - button "Resources" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: /
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+            - generic [ref=e65] [cursor=pointer]: Development
+          - menubar [ref=e68]:
+            - menuitem "App Studio" [ref=e69] [cursor=pointer]:
+              - generic [ref=e72]: App Studio
+            - menuitem "Dev Studio" [ref=e74] [cursor=pointer]:
+              - generic [ref=e77]: Dev Studio
+            - menuitem "Admin Studio" [ref=e79] [cursor=pointer]:
+              - generic [ref=e82]: Admin Studio
+    - complementary "Left Panel" [ref=e84]:
+      - generic [ref=e86]:
+        - tablist [ref=e89]:
+          - text: 
+          - generic:
+            - tab "Recents" [selected] [ref=e90] [cursor=pointer]:
+              - generic [ref=e91]: 
+              - text: Recents
+            - tabpanel "Recents" [ref=e92]:
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - generic [ref=e96]:
+                    - heading "Recents" [level=2] [ref=e97]
+                    - button [ref=e101] [cursor=pointer]:
+                      - generic [ref=e102]: 
+                  - textbox "Search recents" [ref=e107]
+                - generic [ref=e114]:
+                  - generic [ref=e119] [cursor=pointer]:
+                    - generic [ref=e123]: Research
+                    - generic [ref=e125]: RI-671012
+                  - generic [ref=e130] [cursor=pointer]:
+                    - generic [ref=e132]:
+                      - generic [ref=e134]: Send Training Reminder
+                      - generic [ref=e136]: Activity
+                    - generic [ref=e138]: CELG-FW-CART-Work • SendTrainingReminder
+                  - generic [ref=e143] [cursor=pointer]:
+                    - generic [ref=e147]: Research
+                    - generic [ref=e149]: RI-669377
+                  - generic [ref=e154] [cursor=pointer]:
+                    - generic [ref=e156]:
+                      - generic [ref=e158]: EmailRerouting
+                      - generic [ref=e160]: Decision Table
+                    - generic [ref=e162]: Data-Corr-Email • EmailRerouting
+                  - generic [ref=e167] [cursor=pointer]:
+                    - generic [ref=e171]: Research
+                    - generic [ref=e173]: RI-668587
+                  - generic [ref=e178] [cursor=pointer]:
+                    - generic [ref=e182]: Add MSL Designee
+                    - generic [ref=e184]: S-848016
+                  - generic [ref=e189] [cursor=pointer]:
+                    - generic [ref=e193]: Research
+                    - generic [ref=e195]: RI-668580
+                  - generic [ref=e200] [cursor=pointer]:
+                    - generic [ref=e204]: Process Document
+                    - generic [ref=e206]: S-846733
+                  - generic [ref=e211] [cursor=pointer]:
+                    - generic [ref=e215]: EnterSiteTrainingDate
+                    - generic [ref=e217]: S-846732
+                  - generic [ref=e222] [cursor=pointer]:
+                    - generic [ref=e226]: Research
+                    - generic [ref=e228]: RI-668427
+                  - generic [ref=e233] [cursor=pointer]:
+                    - generic [ref=e237]: Process Document
+                    - generic [ref=e239]: S-846730
+                  - generic [ref=e244] [cursor=pointer]:
+                    - generic [ref=e248]: EnterSiteTrainingDate
+                    - generic [ref=e250]: S-846729
+                  - generic [ref=e255] [cursor=pointer]:
+                    - generic [ref=e259]: Research
+                    - generic [ref=e261]: RI-668426
+                  - generic [ref=e266] [cursor=pointer]:
+                    - generic [ref=e270]: EnterSiteTrainingDate
+                    - generic [ref=e272]: S-846710
+                  - generic [ref=e277] [cursor=pointer]:
+                    - generic [ref=e281]: Research
+                    - generic [ref=e283]: RI-668410
+                  - generic [ref=e288] [cursor=pointer]:
+                    - generic [ref=e292]: Update Site Status
+                    - generic [ref=e294]: S-846667
+                  - generic [ref=e299] [cursor=pointer]:
+                    - generic [ref=e303]: Research
+                    - generic [ref=e305]: RI-668376
+                  - generic [ref=e310] [cursor=pointer]:
+                    - generic [ref=e314]: Research
+                    - generic [ref=e316]: RI-668375
+                  - generic [ref=e321] [cursor=pointer]:
+                    - generic [ref=e325]: Qualification Checklist
+                    - generic [ref=e327]: S-846634
+                  - generic [ref=e332] [cursor=pointer]:
+                    - generic [ref=e336]: Research
+                    - generic [ref=e338]: RI-668371
+                  - generic [ref=e343] [cursor=pointer]:
+                    - generic [ref=e347]: Research
+                    - generic [ref=e349]: RI-668370
+                  - generic [ref=e354] [cursor=pointer]:
+                    - generic [ref=e358]: Qualification Checklist
+                    - generic [ref=e360]: S-846631
+                  - generic [ref=e365] [cursor=pointer]:
+                    - generic [ref=e369]: Research
+                    - generic [ref=e371]: RI-668369
+                  - generic [ref=e376] [cursor=pointer]:
+                    - generic [ref=e380]: Research
+                    - generic [ref=e382]: RI-668368
+                  - generic [ref=e387] [cursor=pointer]:
+                    - generic [ref=e391]: Research
+                    - generic [ref=e393]: RI-668367
+                  - generic [ref=e398] [cursor=pointer]:
+                    - generic [ref=e402]: Qualification Checklist
+                    - generic [ref=e404]: S-846630
+                  - generic [ref=e409] [cursor=pointer]:
+                    - generic [ref=e413]: Qualification Checklist
+                    - generic [ref=e415]: S-846628
+                  - generic [ref=e420] [cursor=pointer]:
+                    - generic [ref=e424]: Qualification Checklist
+                    - generic [ref=e426]: S-846627
+                  - generic [ref=e431] [cursor=pointer]:
+                    - generic [ref=e435]: Process Document
+                    - generic [ref=e437]: S-846666
+                  - generic [ref=e442] [cursor=pointer]:
+                    - generic [ref=e446]: Process Document
+                    - generic [ref=e448]: S-846665
+          - tab "Case types" [ref=e449] [cursor=pointer]:
+            - generic [ref=e450]: "N"
+            - text: Case types
+          - tab "Data types" [ref=e451] [cursor=pointer]:
+            - generic [ref=e452]: 
+            - text: Data types
+          - tab "App" [ref=e453] [cursor=pointer]:
+            - generic [ref=e454]: 
+            - text: App
+          - tab "Records" [ref=e455] [cursor=pointer]:
+            - generic [ref=e456]: g
+            - text: Records
+          - tab "Favorites" [ref=e457] [cursor=pointer]:
+            - generic [ref=e458]: 
+            - text: Favorites
+          - text:   tab
+        - button "Operator menu" [ref=e459] [cursor=pointer]:
+          - button "ISR Admin" [ref=e461]:
+            - img:
+              - generic: IA
+    - main "Center Panel" [ref=e462]:
+      - generic [ref=e467]:
+        - generic [ref=e472]:
+          - generic:
+            - generic:
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell:
+                      - table:
+                        - rowgroup:
+                          - row:
+                            - cell
+                            - cell
+          - list [ref=e473]:
+            - listitem [ref=e474]:
+              - menu "Currently open" [ref=e475] [cursor=pointer]: 
+          - tablist [ref=e478]:
+            - tab "Home" [selected] [ref=e479]:
+              - generic [ref=e482]: Home
+            - listitem [ref=e483]:
+              - generic:
+                - table:
+                  - rowgroup:
+                    - row
+        - tabpanel "Home" [ref=e488]:
+          - generic [ref=e493]:
+            - generic [ref=e497]:
+              - img [ref=e498]
+              - generic [ref=e1021]:
+                - button "Hide this until the next release" [ref=e1022] [cursor=pointer]
+                - button "Read more on Pega Community" [ref=e1023] [cursor=pointer]
+            - generic [ref=e1026]:
+              - generic [ref=e1029]:
+                - heading "Guardrail warnings (last 7 days)" [level=3] [ref=e1030]:
+                  - generic [ref=e1031]:
+                    - heading "Guardrail warnings (last 7 days)" [level=3] [ref=e1032]
+                    - generic [ref=e1036]:
+                      - link "View all warnings" [ref=e1039] [cursor=pointer]:
+                        - /url: "#"
+                      - link "Refresh" [ref=e1042] [cursor=pointer]:
+                        - /url: "#"
+                - generic [ref=e1044]:
+                  - generic [ref=e1048]:
+                    - link "Severe" [ref=e1052] [cursor=pointer]:
+                      - /url: "#"
+                    - link "Moderate" [ref=e1055] [cursor=pointer]:
+                      - /url: "#"
+                    - link "Informational" [ref=e1058] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=e1066]:
+                    - generic [ref=e1067]: Introduced by you
+                    - link "0" [ref=e1074] [cursor=pointer]:
+                      - /url: "#"
+                    - link "0" [ref=e1081] [cursor=pointer]:
+                      - /url: "#"
+                    - link "0" [ref=e1088] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=e1095]:
+                    - generic [ref=e1096]: Introduced by team
+                    - link "0" [ref=e1103] [cursor=pointer]:
+                      - /url: "#"
+                    - link "0" [ref=e1110] [cursor=pointer]:
+                      - /url: "#"
+                    - link "0" [ref=e1117] [cursor=pointer]:
+                      - /url: "#"
+              - generic [ref=e1120]:
+                - heading "Security checklist" [level=3] [ref=e1121]:
+                  - generic [ref=e1122]:
+                    - heading "Security checklist" [level=3] [ref=e1123]
+                    - link "Refresh" [ref=e1127] [cursor=pointer]:
+                      - /url: "#"
+                - generic "Security checklist status" [ref=e1129]:
+                  - generic [ref=e1133]:
+                    - generic "Application Security Checklist not complete." [ref=e1136]: 
+                    - generic [ref=e1140]:
+                      - generic [ref=e1145]: "Security tasks completed:"
+                      - generic [ref=e1149]:
+                        - generic [ref=e1152]: 0%
+                        - generic [ref=e1155]: (0
+                        - generic [ref=e1156]: out of
+                        - generic [ref=e1159]: 39)
+                    - generic [ref=e1163]:
+                      - generic [ref=e1164]: "Review the 'Application Security Checklist' at:"
+                      - generic [ref=e1168]:
+                        - generic "Resources" [ref=e1171]
+                        - generic [ref=e1172]: ">"
+                        - link "Application guides" [ref=e1175] [cursor=pointer]:
+                          - /url: "#"
+    - contentinfo "Bottom Panel" [ref=e1176]:
+      - generic [ref=e1181]:
+        - link "Agile Workbench" [ref=e1184] [cursor=pointer]:
+          - /url: "#"
+          - text: M Agile Workbench
+        - link "Current work" [ref=e1194] [cursor=pointer]:
+          - /url: "#"
+          - text:  Current work
+        - link "Scenario testing" [ref=e1200] [cursor=pointer]:
+          - /url: "#"
+          - text:  Scenario testing
+        - link "Issues" [ref=e1203] [cursor=pointer]:
+          - /url: "#"
+          - text:  Issues
+        - link "Tracer" [ref=e1206] [cursor=pointer]:
+          - /url: "#"
+          - text: T Tracer
+        - link "Clipboard" [ref=e1209] [cursor=pointer]:
+          - /url: "#"
+          - text:  Clipboard
+        - link "Live UI" [ref=e1212] [cursor=pointer]:
+          - /url: "#"
+          - text: ; Live UI
+        - link "Live Data" [ref=e1215] [cursor=pointer]:
+          - /url: "#"
+          - text:  Live Data
+        - link "Accessibility" [ref=e1218] [cursor=pointer]:
+          - /url: "#"
+          - text:  Accessibility
+        - link "Performance" [ref=e1221] [cursor=pointer]:
+          - /url: "#"
+          - text:  Performance
+        - button "About Pega Infinity" [ref=e1225] [cursor=pointer]
+```

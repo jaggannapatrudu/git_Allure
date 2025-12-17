@@ -6,7 +6,7 @@ let globalID  , mslEmailAddress, rrEmailAddress, siteID, webcontext, newpage
 
      
 
-     test('Site ID creation in Pega portal nihanya jagan jagan', async ({page, context},testInfo)=>
+     test('Site ID creation in Pega portal nihanya', async ({page, context},testInfo)=>
           {
               
                const pegaPortal = new Pegaportal(page)

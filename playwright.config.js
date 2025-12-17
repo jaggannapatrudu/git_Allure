@@ -23,7 +23,7 @@ const timestamp = new Date()
 export default defineConfig({
 
   testDir: './tests',
- timeout: 900000,
+ timeout: 240000,
   workers: 1,
   expect: {
     timeout: 30000, // Sets expect timeout to 10 seconds (10000 milliseconds)

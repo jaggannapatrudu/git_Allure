@@ -1,0 +1,3 @@
+Requirement REQ565 covered
+Expected:Global ID generated: AutoGen51216T131026
+Actual:Global ID generated: AutoGen51216T131026
