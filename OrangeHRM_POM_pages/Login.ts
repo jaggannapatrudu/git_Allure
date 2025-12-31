@@ -1,9 +1,9 @@
 import { expect, Page } from '@playwright/test'
-//import * as orangeHRMLocators from'../orangeHRM_Locators/OrangeHRM_Locatros.json';
+import * as orangeHRMLocators from'../orangeHRM_Locators/OrangeHRM_Locatros.json';
 import fs from 'fs' 
 import path from 'path'
-let locators = path.join(__dirname, 'orangeHRM_Locators/OrangeHRM_Locators.json');
-let orangeHRMLocators = JSON.parse(fs.readFileSync(locators,'utf-8'))
+//let locators = path.join(__dirname, 'orangeHRM_Locators/OrangeHRM_Locators.json');
+//let orangeHRMLocators = JSON.parse(fs.readFileSync(locators,'utf-8'))
 let loginPageLocators = orangeHRMLocators.LoginPage
 let dashBoardLocators = orangeHRMLocators.dashBoard
 import dotenv from 'dotenv';
