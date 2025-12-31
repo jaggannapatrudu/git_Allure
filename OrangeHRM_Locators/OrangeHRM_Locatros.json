@@ -1,0 +1,38 @@
+{
+    "LoginPage": {
+        "usernametxt": "Username",
+        "passwordtxt": "Password",
+        "Loginbtn": "Login"
+    },
+    "dashBoard":{
+        "userDropdown":".oxd-userdropdown-name",
+        "logOff":"Logout"
+    }
+    ,
+    "PimModule": {
+        "PIMModule": "PIM",
+        "AddEmployee": "Add Employee",
+        "EmployeeList": "Employee List",
+        "Reports": "Reports",
+        "addEmployee": {
+            "empFirstName": "First Name",
+            "empMiddleName": "Middle Name",
+            "empLastName": "Last Name",
+            "EmpID": ".oxd-grid-2.orangehrm-full-width-grid>>input",
+            "empPhoto": ".oxd-icon.bi-plus",
+            "createLoginDetails": ".oxd-switch-input",
+            "username": "(//label[normalize-space(text())='Username']/following::input)[1]",
+            "statsus": "[type='radio']",
+            "password": "[type='password']",
+            "confirmPassword": "[type='password']",
+            "saveBtn": "Save"
+        },
+        "employeeList": {
+            "personalDetails": {
+
+                "personaDetailsHeader": "Personal Details"
+
+            }
+        }
+    }
+}

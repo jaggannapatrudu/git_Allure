@@ -1,0 +1,75 @@
+{
+  "cookies": [
+    {
+      "name": "Pega-RULES",
+      "value": "%09%7Bpd%7DAAAAGtoLyi%2FgjpquY2HT5RvXZH1Tc1AQOn%2F4Bim6f5JcJ0lCGmNs5cYQZiSzBGmUnZtNKg%3D%3DA%7Bapp%7D",
+      "domain": "bms-cartrems-sit.pegacloud.net",
+      "path": "/prweb/PRPushServlet/app/default/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "Pega-RULES",
+      "value": "%09%7Bpd%7DAAAAGtoLyi%2FgjpquY2HT5RvXZH1Tc1AQOn%2F4Bim6f5JcJ0lCGmNs5cYQZiSzBGmUnZtNKg%3D%3DA%7Bapp%7D",
+      "domain": "bms-cartrems-sit.pegacloud.net",
+      "path": "/prweb/PRPushServlet/app/CARTISR/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "Pega-RULES",
+      "value": "%09%7Bpd%7DAAAAGtoLyi%2FgjpquY2HT5RvXZH1Tc1AQOn%2F4Bim6f5JcJ0lCGmNs5cYQZiSzBGmUnZtNKg%3D%3DA%7Bapp%7D",
+      "domain": "bms-cartrems-sit.pegacloud.net",
+      "path": "/prweb/app/default/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "Pega-RULES",
+      "value": "%09%7Bpd%7DAAAAGtoLyi%2FgjpquY2HT5RvXZH1Tc1AQOn%2F4Bim6f5JcJ0lCGmNs5cYQZiSzBGmUnZtNKg%3D%3DA%7Bapp%7D",
+      "domain": "bms-cartrems-sit.pegacloud.net",
+      "path": "/prweb/app/CARTISR/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "788C6F07916F9E65167025BD4E90BA53",
+      "domain": "bms-cartrems-sit.pegacloud.net",
+      "path": "/prweb",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALB",
+      "value": "NwxvEubpMSKEJmv1vAv8Oo4MbiCfYK8d9PJypmChQ7hnnfXg7p5+rkxrrqGMDbrdHBfwdNZ3HiCrCnscC8/q0nK0Y/lDli8Qu9NvrVF69429/MpL5dmv8i0vVsmK",
+      "domain": "bms-cartrems-sit.pegacloud.net",
+      "path": "/",
+      "expires": 1766486402.128107,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "NwxvEubpMSKEJmv1vAv8Oo4MbiCfYK8d9PJypmChQ7hnnfXg7p5+rkxrrqGMDbrdHBfwdNZ3HiCrCnscC8/q0nK0Y/lDli8Qu9NvrVF69429/MpL5dmv8i0vVsmK",
+      "domain": "bms-cartrems-sit.pegacloud.net",
+      "path": "/",
+      "expires": 1766486402.128266,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": []
+}

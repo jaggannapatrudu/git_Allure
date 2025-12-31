@@ -1,0 +1,21 @@
+[
+    {
+        "email":"1stemail",
+        "password":"1stpassword"
+    },
+    {
+        "email":"2nsemail",
+        "password":"2ndpassword"
+    },
+    {
+        "email":"3rdemail",
+        "password":"3rdpassword"
+    },
+    {
+        "email":"4themail",
+        "password":"4thpassword"
+    }
+
+
+]
+
