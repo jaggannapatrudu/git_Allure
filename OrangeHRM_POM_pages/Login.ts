@@ -1,5 +1,8 @@
 import { expect, Page } from '@playwright/test'
-import * as orangeHRMLocators from'../orangeHRM_Locators/OrangeHRM_Locatros.json';
+//import * as orangeHRMLocators from'../orangeHRM_Locators/OrangeHRM_Locatros.json';
+import fs from 'fs'
+let locatorsPath = 'OrangeHRM_Locators/OrangeHRM_Locatros.json'
+let orangeHRMLocators = JSON.parse(fs.readFileSync(locatorsPath,'utf-8'))
 let loginPageLocators = orangeHRMLocators.LoginPage
 let dashBoardLocators = orangeHRMLocators.dashBoard
 import dotenv from 'dotenv';
