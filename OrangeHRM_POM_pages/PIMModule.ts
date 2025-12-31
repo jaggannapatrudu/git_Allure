@@ -1,9 +1,10 @@
 import { Page, Locator, expect } from '@playwright/test';
 import fs from 'fs'
+import path from 'path'
 //import * as PIMLocators from '../orangeHRM_Locators/OrangeHRM_Locatros.json';
 import Base from '../OrangeHRM_Utils/OrangeHRMBase'
-let locators = 'orangeHRM_Locators/OrangeHRM_Locatros.json'
-let PIMLocators = JSON.parse(fs.readFileSync(locators, 'utf-8'))
+let locators = path.join(__dirname, 'orangeHRM_Locators/OrangeHRM_Locators.json')
+let PIMLocators = JSON.parse(fs.readFileSync(locators,'utf-8'))
 let addEmployeeLocators = PIMLocators.PimModule.addEmployee
 let employlistPersonaldetails = PIMLocators.PimModule.employeeList.personalDetails
 export default class PIMModule extends Base {
