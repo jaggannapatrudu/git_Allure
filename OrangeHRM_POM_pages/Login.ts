@@ -1,5 +1,5 @@
 import { expect, Page } from '@playwright/test'
-import * as orangeHRMLocators from'../orangeHRM_Locators/OrangeHRM_Locatros.json';
+import * as orangeHRMLocators from'../OrangeHRMLocators/OrangeHRMLocatros.json';
 import fs from 'fs' 
 import path from 'path'
 //let locators = path.join(__dirname, 'orangeHRM_Locators/OrangeHRM_Locators.json');
