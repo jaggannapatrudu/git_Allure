@@ -1,6 +1,8 @@
-import {test as base} from '@playwright/test'
+import {test as base, Page} from '@playwright/test'
 import Login from '../OrangeHRM_POM_pages/Login'
+import baseClass from '../OrangeHRM_Utils/OrangeHRMBase'
 import PIMModule from '../OrangeHRM_POM_pages/PIMModule'
+
 
 
 type pageFixtures={
@@ -9,14 +11,14 @@ type pageFixtures={
 }
 export let test = base.extend<pageFixtures>({
 
-    loginObject:async({page}, use)=>{
+    loginObject:async({}, use)=>{
 
-        let login = new Login(page)
+        let login = new Login()
         await use(login)
     },
-    pimModuleObject:async({page}, use)=>{
+    pimModuleObject:async({}, use)=>{
 
-        let pimModule = new PIMModule(page)
+        let pimModule = new PIMModule()
         await use(pimModule)
     }
 

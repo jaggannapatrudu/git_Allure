@@ -33,7 +33,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     
-    headless:true,
+    headless:false,
     screenshot:'on',
     //viewport:{width:100,height:1000},
     /* Base URL to use in actions like `await page.goto('')`. */
@@ -49,7 +49,8 @@ export default defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
-      //fullyParallel: true
+      fullyParallel: true
+      
     },
 /*
     {

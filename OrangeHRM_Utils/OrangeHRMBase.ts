@@ -1,8 +1,33 @@
-
+import {BrowserContext,Page,chromium} from '@playwright/test'
+import * as orangeHRMLocators from'../OrangeHRMLocators/OrangeHRMLocatros.json';
+let loginPageLocators = orangeHRMLocators.LoginPage
+import dotenv from 'dotenv'
+dotenv.config();
 export default class Base {
-
-
-
+    
+    
+    async urlLaunch(page:Page)
+    {
+        const url: string = process.env.url ?? ''
+        await page.goto(url)
+    }
+    async storageState():Promise<Page>
+    {
+        const browser = await chromium.launch()
+        const context = await browser.newContext()
+        const page = await context.newPage()
+         const url: string = process.env.url ?? ''
+        const username: string = process.env.orangehrmusername ?? ''
+        const password: string = process.env.orangehrmpassword ?? ''
+        await page.goto(url)
+        await page.waitForLoadState('networkidle')
+        await page.getByPlaceholder(loginPageLocators.usernametxt).fill(username)
+        await page.getByPlaceholder(loginPageLocators.passwordtxt).fill(password)
+        await page.getByRole('button', { name: loginPageLocators.Loginbtn }).click()
+        await context.storageState({path:'storagestate.json'})
+        //const newContext = await browser.newContext({storageState:'storagestate.json'})
+        return page
+    }
     randomTextGeneration(length: number): string {
         const chars = 'abcdefghijklmnopqrstuvwxyzfakhbldsjvdbsadabdvsavbdsavdsdasds';
         return Array.from({ length }, () =>

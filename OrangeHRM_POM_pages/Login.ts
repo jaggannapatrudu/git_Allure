@@ -7,34 +7,25 @@ import path from 'path'
 let loginPageLocators = orangeHRMLocators.LoginPage
 let dashBoardLocators = orangeHRMLocators.dashBoard
 import dotenv from 'dotenv';
+import Base from '../OrangeHRM_Utils/OrangeHRMBase';
 dotenv.config();
-export default class Login {
+export default class Login extends Base{
 
-    readonly page: Page
-    constructor(page: Page) {
-        this.page = page
-    }
+    
 
-    async OrangeHRMLogin() {
-        const url: string = process.env.url ?? ''
-        const username: string = process.env.orangehrmusername ?? ''
-        const password: string = process.env.orangehrmpassword ?? ''
-        await this.page.goto(url)
-        await this.page.waitForLoadState('networkidle')
-        await this.page.getByPlaceholder(loginPageLocators.usernametxt).fill(username)
-        await this.page.getByPlaceholder(loginPageLocators.passwordtxt).fill(password)
-        await this.page.getByRole('button', { name: loginPageLocators.Loginbtn }).click()
-        await expect(this.page).toHaveTitle('OrangeHRM')
-        await this.page.screenshot()
+    async OrangeHRMLogin(page:Page) {
+    
+        await expect(page).toHaveTitle('OrangeHRM')
+        await page.screenshot()
         
     }
-    async OrangeHRMLogoff()
+    async OrangeHRMLogoff(page:Page)
     {
-        await expect(this.page.locator(dashBoardLocators.userDropdown)).toBeVisible()
-        await this.page.locator(dashBoardLocators.userDropdown).click()
-        await this.page.screenshot()
-        await this.page.getByText(dashBoardLocators.logOff).click()
-        await this.page.waitForTimeout(3000)
+        await expect(page.locator(dashBoardLocators.userDropdown)).toBeVisible()
+        await page.locator(dashBoardLocators.userDropdown).click()
+        await page.screenshot()
+        await page.getByText(dashBoardLocators.logOff).click()
+        await page.waitForTimeout(3000)
     }
 
 }
